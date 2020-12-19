@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title>602 Consulting</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+  <!-- Add your site or application content here -->
+  <header>
+    <div class="site-name">
+      <p>602 Consulting</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- hero section -->
+    <section id="hero">
+      <!-- has contained background image to the right -->
+      <div class="col-10">
+        <div class="col-7">
+          <h2>Interesting and catchy tagline slash headline here</h2>
+          <p class="intro">Let’s say perhaps two sentences, maybe three, that describe what you do and who you are. These don’t need to be super detailed but should be enough that once people read it they have a general understanding of why they should keep looking at the site.</p>
+          <a href="#contact"><button><p>Let's Talk</p></button></a>
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+    <section id="about">
+      <div class="col-8">
+        <div class="col-2">
+          <div id="headshot">
+            <img class="hide-mobile" src="img/headshot.jpg">
+          </div>
+          <button id="clients" class="minor">
+            <div class="client-plus">
+              <p>+</p>
+            </div>
+            <div class="client-text">
+              <p>Client List</p>
+            </div>
+          </button>
+        </div>
+        <div class="col-6">
+          <div id="bio">
+            <h2>Hi, I'm Tim.</h2>
+            <p>Tim McDermott accepted Feed More’s Chief Development Officer role in June 2014 with eleven years of executive consulting experience with Littleton McDermott LLC and The Kellogg Organization where he provided counsel to nonprofits and social service organizations.</p>
+            <p>Prior to his work as a consultant, Tim led higher education advancement at the executive level at Virginia Wesleyan College, the Warren Alpert Medical School of Brown University, the Medical College of Virginia, Duke University and Virginia Tech. Tim brings to Feed More an expertise in comprehensive and annual fund campaign planning, strategic planning, volunteer management, board development and internal program and staff assessment.</p>
+            <p>Tim received his Master of Public Administration degree from Virginia Commonwealth University, a Bachelor of Arts degree in Geography from Virginia Polytechnic Institute and State University and was appointed by Governor Ralph Northam to the Virginia Commonwealth University Health System Authority.</p>
+          </div>
+          <div id="client-list" class="client-opacity client-toggle">
+            <h2>Past Clients</h2>
+            <ul>
+              <li>Client</li>
+              <li>Client</li>
+              <li>Client</li>
+              <li>Client</li>
+              <li>Client</li>
+              <li>Client</li>
+              <li>Client</li>
+              <li>Client</li>
+              <li>Client</li>
+              <li>Client</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="col-10">
+        <h2>Services</h2>
+        <div class="s-grid">
+          <article>
+            <h4>Planning and Strategy</h4>
+            <p>A few sentences to describe the service. I don’t think it needs to be a lot of sentences but enough to explain for someone who might not know I guess?</p>
+          </article>
+          <article>
+            <h4>Campaign and Development Management</h4>
+            <p>I took this one and the first one from some consulting website that had some services listed. I don’t t know if they aree accurate for you.</p>
+          </article>
+          <article>
+            <h4>Making that Money</h4>
+            <p>Probably not a real service but it is the realest service of what a fundraising consultant probably does. Perhaps a little too forward though.</p>
+          </article>
+          <article>
+            <h4>Probably Should Keep it an Even Number</h4>
+            <p>If you want a section like this I imagine it will be better to have it as an even number.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="col-8">
+        <h2>Get in touch.</h2>
+        <p class="intro">Some sentence about getting in touch or what to expect or something similar. Like with everything, it doesn’t need to be long or very descriptive.</p>
+        <form id="my-form" action="https://formspree.io/f/xjvppvwk" method="POST">
+          <div class="f-field">
+            <label for="fName">First Name</label>
+            <input type="text" placeholder="first name" name="first-name" id="fName" required>
+          </div>
+          <div class="f-field">
+            <label for="fName">Last Name</label>
+            <input type="text" placeholder="last name" name="last-name" id="lName" required>
+          </div>
+          <div class="f-field">
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="email@domain.com" name="email-address" id="email" required>
+          </div>
+          <div class="f-field">
+            <label for="phone">Phone Number</label>
+            <input type="tel" placeholder="555-555-5555" name="phone-number"id="phone">
+          </div>
+          <div class="f-field">
+            <label for="org">Organization</label>
+            <input type="text" placeholder="organization name" name="organization" id="org">
+          </div>
+          <div class="f-field">
+            <label for="job">Job Title</label>
+            <input type="text" placeholder="job title" name="job-title" id="job">
+          </div>
+          <div class="f-text">
+            <label for="help">How can I help?</label>
+            <textarea id="help" name="help" rows="4"></textarea>
+          </div>
+          <div class="f-button">
+            <button id="my-form-button" type="submit"><p>Send</p></button>
+            <p id="my-form-status"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="text-small">tim@nameofyoursite.com | 804.555.5555</p>
+    <p class="text-small">© 2020 602 Consulting. All rights reserved.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/form.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
