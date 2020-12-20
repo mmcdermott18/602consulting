@@ -240,7 +240,7 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 2.441rem;
-  margin-top: 0;
+  margin: 0 0 .5rem;
 }
 h3 {
   font-size: 1.953rem;
@@ -367,12 +367,16 @@ p#my-form-status {
   margin: 0;
   color: #33ca7f;
 }
+.required {
+  color: #c33149;
+}
 /* helper */
 img {
   width: 100%;
 }
 .intro {font-size: 1.563rem;}
 small, .text_small {font-size: 0.8rem;}
+.mobile-only {display: none;}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -463,6 +467,10 @@ small, .text_small {font-size: 0.8rem;}
 @media only screen and (max-width: 1100px) {
   #hero .col-10 {
     background: none;
+  }
+  .mobile-only {
+    display: initial;
+    margin-bottom: 25px;
   }
   .col-7 {
     width: 100%;
@@ -568,6 +576,7 @@ small, .text_small {font-size: 0.8rem;}
   }
   .col-10 {
     width: 95vw;
+    margin-top: 2.5vw;
   }
   .col-8 {
     width: 95vw;

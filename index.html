@@ -22,7 +22,7 @@
   <!-- Add your site or application content here -->
   <header>
     <div class="site-name">
-      <p>602 Consulting</p>
+      <p>602 Consultants</p>
     </div>
     <nav>
       <ul>
@@ -38,6 +38,7 @@
       <!-- has contained background image to the right -->
       <div class="col-10">
         <div class="col-7">
+          <img src="img/bg-1.jpg" alt="to be determined" class="mobile-only">
           <h2>Interesting and catchy tagline slash headline here</h2>
           <p class="intro">Let’s say perhaps two sentences, maybe three, that describe what you do and who you are. These don’t need to be super detailed but should be enough that once people read it they have a general understanding of why they should keep looking at the site.</p>
           <a href="#contact"><button><p>Let's Talk</p></button></a>
@@ -114,15 +115,15 @@
         <p class="intro">Some sentence about getting in touch or what to expect or something similar. Like with everything, it doesn’t need to be long or very descriptive.</p>
         <form id="my-form" action="https://formspree.io/f/xjvppvwk" method="POST">
           <div class="f-field">
-            <label for="fName">First Name</label>
+            <label for="fName">First Name<span class="required">*</span></label>
             <input type="text" placeholder="first name" name="first-name" id="fName" required>
           </div>
           <div class="f-field">
-            <label for="fName">Last Name</label>
+            <label for="fName">Last Name<span class="required">*</span></label>
             <input type="text" placeholder="last name" name="last-name" id="lName" required>
           </div>
           <div class="f-field">
-            <label for="email">Email Address</label>
+            <label for="email">Email Address<span class="required">*</span></label>
             <input type="email" placeholder="email@domain.com" name="email-address" id="email" required>
           </div>
           <div class="f-field">
