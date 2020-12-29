@@ -119,13 +119,14 @@ header {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
+  margin-bottom: 0;
 }
 /* nav */
 nav {
   margin-top: 11px;
   float: right;
   font-family: 'Poppins', sans-serif;
-  font-weight: 600px;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
