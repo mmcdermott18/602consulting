@@ -117,7 +117,7 @@ header {
 .site-name p {
   font-size: 1.563rem;
   text-transform: uppercase;
-  font-weight: 400px;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 /* nav */
@@ -157,14 +157,14 @@ nav a:hover, nav a:active {
   z-index: 5;
 }
 #contact {
-  padding-top: 100px;
+  padding: 50px 0;
 }
 .col-10 {
   width: 75vw;
   margin: 50px auto;
 }
 #hero .col-10 {
-  background: url('../img/bg-1.jpg') no-repeat top right;
+  background: url('../img/hero.jpg') no-repeat top right;
   background-size: 55%;
 }
 #hero ul {
@@ -189,7 +189,7 @@ nav a:hover, nav a:active {
 .col-8 {
   width: calc(75vw * .8);
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px 0 0;
   display: grid;
 }
 #about .col-8 {
@@ -319,6 +319,9 @@ form {
   grid-column-start: 1;
   grid-column-end: 3;
   text-align: center;
+}
+#my-form-button:hover {
+  cursor: pointer;
 }
 /* .f-error {
   border-color: red;
@@ -508,7 +511,7 @@ small, .text-small {font-size: 0.8rem;}
   }
   /* main */
   #about {
-    padding-bottom: 0;
+    padding-bottom: 50px;
   }
   #services {
     position: relative;
@@ -532,7 +535,7 @@ small, .text-small {font-size: 0.8rem;}
   }
   .col-8 {
     width: 80vw;
-    padding: 50px 0;
+    padding: 50px 0 0;
   }
   #about .col-8 {
     grid-template-columns: 1fr;
@@ -619,6 +622,9 @@ small, .text-small {font-size: 0.8rem;}
     columns: 1;
     -webkit-columns: 1;
     -moz-columns: 1;
+  }
+  .site-name p {
+    font-size: 1.563rem;
   }
 }
 @media print,
