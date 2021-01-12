@@ -114,13 +114,6 @@ header {
 .site-name {
   float: left;
 }
-.site-name p {
-  font-size: 1.563rem;
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin-bottom: 0;
-}
 /* nav */
 nav {
   margin-top: 11px;
@@ -498,9 +491,10 @@ small, .text-small {font-size: 0.8rem;}
   }
   .site-name {
     float: none;
+    margin: 0 0 25px 0;
   }
-  .site-name p {
-    font-size: 2rem;
+  .site-name img {
+    width: 300px;
   }
   /* nav */
   nav {
@@ -542,26 +536,26 @@ small, .text-small {font-size: 0.8rem;}
     grid-template-columns: 1fr;
     grid-gap: 0 25px;
   }
-  #tm-headshot {
+  #tm-headshot, #bl-headshot, #rl-headshot, #bb-headshot {
     width: 100%;
     height: 400px;
+    margin-bottom: 15px
+  }
+  #tm-headshot {
     background: url('../img/tm-headshot.jpg') no-repeat top center;
     background-size: cover;
-    margin-bottom: 15px;
   }
   #bl-headshot {
-    width: 100%;
-    height: 400px;
     background: url('../img/bl-headshot.jpg') no-repeat top center;
     background-size: cover;
-    margin-bottom: 15px;
+  }
+  #bb-headshot {
+    background: url('../img/bb-headshot.jpg') no-repeat center center;
+    background-size: cover;
   }
   #rl-headshot {
-    width: 100%;
-    height: 400px;
     background: url('../img/rl-headshot.jpg') no-repeat top center;
     background-size: cover;
-    margin-bottom: 15px;
   }
   #relationships-list ul, #hero ul {
     columns: 2;
@@ -608,6 +602,9 @@ small, .text-small {font-size: 0.8rem;}
   header {
     padding: 15px 2.5vw;
   }
+  .site-name img {
+    width: 260px;
+  }
   .col-10 {
     width: 95vw;
     margin-top: 2.5vw;
@@ -615,7 +612,7 @@ small, .text-small {font-size: 0.8rem;}
   .col-8 {
     width: 95vw;
   }
-  #tm-headshot, #bl-headshot, #rl-headshot {
+  #tm-headshot, #bl-headshot, #rl-headshot, #bb-headshot {
     width: 100%;
     height: 300px;
   }
